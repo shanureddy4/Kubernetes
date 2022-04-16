@@ -28,4 +28,4 @@ This project assumes you have kubernetes environment installed in your machine.
 **Persistent Volume**
 ![volume](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/volume.png)<br>
 **Persistent Volume Demo**
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/kubernetes-2022-04-16_14.51.08.mkv)
