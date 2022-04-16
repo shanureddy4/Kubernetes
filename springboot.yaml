@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: springboot #name of container
-        image: shanureddy78/webapikaiburr:master-29dbb41
+        image: shanureddy78/webapikaiburr:master-f91b5d9
         ports:
         - containerPort: 8080
         env:
