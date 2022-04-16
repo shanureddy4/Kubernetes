@@ -20,12 +20,12 @@ This project assumes you have kubernetes environment installed in your machine.
 **Application running status**
 ![running](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/runninng%20status.png)
 **MongoDb and Spring app running in different pods**
-![two pods](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/two%20pods.png)
+![two pods](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/two%20pods.png) <br>
 **Application taking details from environment variables**
-![env](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/environment.png)
+![env](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/environment.png)<br>
 **Application end points**
-![endpoints](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/endpoints.png)
+![endpoints](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/endpoints.png)<br>
 **Persistent Volume**
-![volume](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/volume.png)
+![volume](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/volume.png)<br>
 **Persistent Volume Demo**
-![demo](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/kubernetes-2022-04-16_14.51.08.mkv)
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
