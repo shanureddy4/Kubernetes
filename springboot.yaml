@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: springboot
+  labels:
+    app: springboot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: springboot
+  template:
+    metadata:
+      labels:
+        app: springboot #pod name
+    spec:
+      containers:
+      - name: springboot #name of container
+        image: shanureddy78/webapikaiburr:master-29dbb41
+        ports:
+        - containerPort: 8080
+        env:
+        - name: MONGOUSER
+          valueFrom:
+            secretKeyRef:
+              name: mongodb-secret
+              key: mongo-root-username
+        - name: MONGOPASS
+          valueFrom: 
+            secretKeyRef:
+              name: mongodb-secret
+              key: mongo-root-password
+        - name: MONGODB
+          valueFrom: 
+            configMapKeyRef:
+              name: spring-configmap
+              key: database_name
+        - name: MONGOHOST
+          valueFrom: 
+            configMapKeyRef:
+              name: spring-configmap
+              key: database_url
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: springboot-service
+spec:
+  selector:
+    app: springboot
+  type: LoadBalancer  
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080 #container port
+      nodePort: 30000
