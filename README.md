@@ -1,5 +1,5 @@
 # Overview
-This project is created as part of **Kaiburr Assessment**. Dockerimage used in this project is based on this [repo](https://github.com/shanureddy4/WebApiTask)(Task1). Two pods were created. One for springboot application and another is for mongoDB. With LoadBalancer springboot application is exposed to host machine. mongoDB is accessed with environment variables. To maintain persistent for mongoDB , PersistentVolumeClaim of 100MB is created. (click here)[https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/kubernetes-2022-04-16_14.51.08.mkv] to see persistence database.
+This project is created as part of **Kaiburr Assessment**. Dockerimage used in this project is based on this [repo](https://github.com/shanureddy4/WebApiTask)(Task1). Two pods were created. One for springboot application and another is for mongoDB. With LoadBalancer springboot application is exposed to host machine. mongoDB is accessed with environment variables. To maintain persistent for mongoDB , PersistentVolumeClaim of 100MB is created. [click here](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/kubernetes-2022-04-16_14.51.08.mkv) to see persistence database.
 ## Getting Started
 
 This project assumes you have kubernetes environment installed in your machine.
