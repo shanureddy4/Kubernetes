@@ -17,3 +17,15 @@ This project assumes you have kubernetes environment installed in your machine.
  * Now check your service running endpoints with this command
  ``` minikube service --all ``` . This will display all services associated with pods. <br>
 ## Output
+**Application running status**
+![running](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/runninng%20status.png)
+**MongoDb and Spring app running in different pods**
+![two pods](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/two%20pods.png)
+**Application taking details from environment variables**
+![env](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/environment.png)
+**Application end points**
+![endpoints](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/endpoints.png)
+**Persistent Volume**
+![volume](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/volume.png)
+**Persistent Volume Demo**
+![demo](https://github.com/shanureddy4/Kubernetes/blob/master/screenshots/kubernetes-2022-04-16_14.51.08.mkv)
